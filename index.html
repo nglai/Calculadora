@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="cab">
+            <img src="imagens/CalcTudo.png" alt="">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="">Conversões</a>
+            <a href="">Calculadora</a>
+        </nav>
+    </header>
+    <main>
+        <button onclick="diminuir()">A-</button>
+        <button onclick="aumentar()">A+</button>
+
+        <section class="secao1" id="s1">
+            <h1>Calc Tudo</h1>
+            <h2>Bem vindo(a) ao nosso site!</h2>
+            <button class="botao" onclick="mudacor()">Dark Model</button>
+        </section>
+
+        <section class="secao2" id="s2">
+            <div class="secao2img">
+                <img src="imagens/conversao.png" alt="">
+            </div>
+            <div class="secao2text">
+                <h2>Conversões</h2>
+                <p>Realize vários tipos de conversões em um só lugar</p>
+            </div>
+        </section>
+
+        <section class="secao3" id="s3">
+            <div class="secao3text">
+                <h2>Calculadora</h2>
+                <p>Realize vários tipos de calculos em um só lugar</p>
+            </div>
+            <div class="secao3img">
+                <img src="imagens/calculadora.gif" alt="">
+            </div>
+        </section>
+    </main>
+    <footer id="pe">
+        <p>Calc Tudo</p>
+    </footer>
+    <script src="js.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
