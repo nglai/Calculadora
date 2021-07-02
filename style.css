@@ -11,7 +11,7 @@ body {
 }
 
 header div {
-    background-color: salmon;
+    background-color: #E06666;
     width: 100%;
 }
 
@@ -56,7 +56,7 @@ header nav a{
 
 /*SECAO 2 */
 .secao2 {
-    background-color: rgb(209, 170, 209);
+    background-color: #D5A6BD;
     display: flex;
     flex-direction: row;
 }
@@ -86,7 +86,7 @@ header nav a{
 
 /*SEÇÃO 3*/
 .secao3 {
-    background-color: rgb(143, 121, 204);
+    background-color: #8E7CC3;
     display: flex;
     flex-direction: row;
 }
@@ -115,7 +115,7 @@ header nav a{
 
 /*FOOTER*/
 footer {
-    background-color: pink;
+    background-color: #EA9999;
     padding: 2%;
     font-weight: bold;
 }

@@ -14,19 +14,19 @@ var controlador = 0;
     function mudacor () {
         if (controlador == 0) {
             document.getElementById("cab").style.cssText = `
-            background-color: black;
+            background-color: #333333;
             color: white;
             `
             document.getElementById("s1").style.cssText = `
-            background-color: gray;
+            background-color: #666666;
             color: white;
             `
             document.getElementById("s2").style.cssText = `
-            background-color: rgb(58, 8, 8);
+            background-color: #4C1130;
             color: white;
             `
             document.getElementById("s3").style.cssText = `
-            background-color: rgb(21, 9, 102);
+            background-color: #20124D;
             color: white;
             `
             document.getElementById("pe").style.cssText = `
@@ -37,22 +37,22 @@ var controlador = 0;
         }
         else if (controlador == 1) {
             document.getElementById("cab").style.cssText = `
-            background-color: salmon;
+            background-color: #E06666;
             `
             document.getElementById("s1").style.cssText = `
             background-color: white;
             color: black;
             `
             document.getElementById("s2").style.cssText = `
-            background-color: rgb(209, 170, 209);
+            background-color: #D5A6BD;
             color: back;
             `
             document.getElementById("s3").style.cssText = `
-            background-color: rgb(143, 121, 204);
+            background-color: #8E7CC3;
             color: back;
             `
             document.getElementById("pe").style.cssText = `
-            background-color: pink;
+            background-color: #EA9999;
             color: back;
             `
             controlador = 0;
