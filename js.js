@@ -59,7 +59,7 @@ var controlador = 0;
         }
     }
 
-//FORMULARIO
+//FORMULARIO DE CONVERSÕES
 realPara = () => {
     valordolar = 5.06;
     valoreuro = 6.00;
@@ -81,3 +81,5 @@ celciusPara = () => {
         document.getElementById('resultT').innerHTML = valor2 + 273.15;
     }
 }
+
+//CALCULADORA

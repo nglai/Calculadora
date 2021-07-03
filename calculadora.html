@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calc Tudo</title>
-    <link rel="stylesheet" href="styleindex.css">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="stylecalculadora.css">
 </head>
 <body>
     <header>
-        <div id="cab">
+        <div>
             <img src="imagens/CalcTudo.png" alt="">
         </div>
         <nav>
@@ -21,34 +21,27 @@
     <main>
         <button class="botaoAcces" onclick="diminuir()">A-</button>
         <button class="botaoAcces" onclick="aumentar()">A+</button>
-
-        <section class="secao1" id="s1">
+        <section class="secao">
             <h1>Calc Tudo</h1>
-            <h2>Bem vindo(a) ao nosso site!</h2>
-            <button class="botao" onclick="mudacor()">Dark Mode</button>
+            <h3>Calculadora</h3>
         </section>
 
-        <section class="secao2" id="s2">
-            <div class="secao2img">
-                <img src="imagens/conversao.png" alt="">
-            </div>
-            <div class="secao2text">
-                <h2>Conversões</h2>
-                <p>Realize vários tipos de conversões em um só lugar</p>
-            </div>
-        </section>
+        <div class="grid">
+            <div class="boxr"><p>Resultado</p></div>
+            <div class="box"><button>+</button></div>
+            <div class="box"><button>-</button></div>
+            <div class="box"><button>*</button></div>
+            <div class="box"><button>/</button></div>
+            <div class="box"><button>%</button></div>
+            <div class="box"><button>a^2</button></div>
+            <div class="box"><button>b^2</button></div>
+            <div class="box"><button>a^b</button></div>
+            <div class="boxa"><input type="text" placeholder="Valor A"></div>
+            <div class="boxb"><input type="text" placeholder="Valor b"></div>
+        </div>
 
-        <section class="secao3" id="s3">
-            <div class="secao3text">
-                <h2>Calculadora</h2>
-                <p>Realize vários tipos de calculos em um só lugar</p>
-            </div>
-            <div class="secao3img">
-                <img src="imagens/calculadora.gif" alt="">
-            </div>
-        </section>
     </main>
-    <footer id="pe">
+    <footer>
         <p>Calc Tudo</p>
         <p>Feito por: Ng Lai</p>
     </footer>
