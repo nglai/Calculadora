@@ -75,10 +75,10 @@ realPara = () => {
 celciusPara = () => {
     valor2 = parseFloat(document.getElementById('celcius').value);
     if(document.getElementById('temp').value=='fahrenheit') {
-        document.getElementById('resultT').innerHTML = (valor2*1.8)+32;
+        document.getElementById('resultT').innerHTML = ((valor2*1.8)+32).toFixed(2);
     }
     if(document.getElementById('temp').value=='kelvin') {
-        document.getElementById('resultT').innerHTML = valor2 + 273.15;
+        document.getElementById('resultT').innerHTML = (valor2 + 273.15).toFixed(2);
     }
 }
 
