@@ -83,3 +83,49 @@ celciusPara = () => {
 }
 
 //CALCULADORA
+
+soma = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = a+b;
+}
+
+subtracao = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = a-b;
+}
+
+multiplicacao = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = a*b;
+}
+
+divisao = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = a/b;
+}
+
+porcentagem = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = (a*b)/100;
+}
+
+aelevado2 = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    document.getElementById('resultado').innerHTML = a*a;
+}
+
+belevado2 = ()  => {
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = b*b;
+}
+
+aelevadob = ()  => {
+    a = parseFloat(document.getElementById('valora').value);
+    b = parseFloat(document.getElementById('valorb').value);
+    document.getElementById('resultado').innerHTML = Math.pow(a, b);
+}

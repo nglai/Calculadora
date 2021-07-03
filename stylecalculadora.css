@@ -93,10 +93,16 @@ header nav a{
     grid-column-end: 5; 
 }
 
+main p {
+margin-left: 1%;
+font-size: 1.0em;
+}
+
 /*FOOTER*/
 footer {
     background-color: #EA9999;
     padding: 1%;
     font-weight: bold;
     text-align: center;
+    margin-top: 5%;
 }

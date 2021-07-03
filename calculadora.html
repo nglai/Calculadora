@@ -27,18 +27,21 @@
         </section>
 
         <div class="grid">
-            <div class="boxr"><p>Resultado</p></div>
-            <div class="box"><button>+</button></div>
-            <div class="box"><button>-</button></div>
-            <div class="box"><button>*</button></div>
-            <div class="box"><button>/</button></div>
-            <div class="box"><button>%</button></div>
-            <div class="box"><button>a<sup>2</sup></button></div>
-            <div class="box"><button>b<sup>2</sup></button></div>
-            <div class="box"><button>a<sup>b</sup></button></div>
-            <div class="boxa"><input type="text" placeholder="Valor A"></div>
-            <div class="boxb"><input type="text" placeholder="Valor b"></div>
+            <div class="boxr"><p id="resultado">Resultado</p></div>
+            <div class="box"><button onclick="soma()">+</button></div>
+            <div class="box"><button onclick="subtracao()">-</button></div>
+            <div class="box"><button onclick="multiplicacao()">*</button></div>
+            <div class="box"><button onclick="divisao()">/</button></div>
+            <div class="box"><button onclick="porcentagem()">%</button></div>
+            <div class="box"><button onclick="aelevado2()">a<sup>2</sup></button></div>
+            <div class="box"><button onclick="belevado2()">b<sup>2</sup></button></div>
+            <div class="box"><button onclick="aelevadob()">a<sup>b</sup></button></div>
+            <div class="boxa"><input type="text" placeholder="Valor A" id="valora"></div>
+            <div class="boxb"><input type="text" placeholder="Valor B" id="valorb"></div>
         </div>
+
+        <p>Os calculos são feito da seguinte forma: Valor A operação Valor B</p>
+        <p>% = Valor A porcentos de Valor B. Exemplo 10% (valor A) de 100 (valor B) = 10</p>
 
     </main>
     <footer>
