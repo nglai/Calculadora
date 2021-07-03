@@ -36,6 +36,12 @@ header nav a{
     margin-left: 40px;
 }
 
+.botaoAcces {
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 /*SECAO 1 */
 .secao1 {
     padding-top: 20px;
@@ -118,4 +124,5 @@ footer {
     background-color: #EA9999;
     padding: 1%;
     font-weight: bold;
+    text-align: center;
 }
