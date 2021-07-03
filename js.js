@@ -64,20 +64,20 @@ realPara = () => {
     valordolar = 5.06;
     valoreuro = 6.00;
     valor = parseFloat(document.getElementById('real').value);
-    if (document.getElementById('moeda').value='dolar'){
+    if (document.getElementById('moeda').value=='dolar'){
         document.getElementById('resultR').innerHTML = (valor/valordolar).toFixed(2);
     }
-    if (document.getElementById('moeda').value='euro') {
+    if (document.getElementById('moeda').value=='euro') {
         document.getElementById('resultR').innerHTML = (valor/valoreuro).toFixed(2);
     }
 }
 
 celciusPara = () => {
     valor2 = parseFloat(document.getElementById('celcius').value);
-    if(document.getElementById('temp').value='fahrenheit') {
+    if(document.getElementById('temp').value=='fahrenheit') {
         document.getElementById('resultT').innerHTML = (valor2*1.8)+32;
     }
-    if(document.getElementById('temp').value='kelvin') {
+    if(document.getElementById('temp').value=='kelvin') {
         document.getElementById('resultT').innerHTML = valor2 + 273.15;
     }
 }
