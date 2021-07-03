@@ -59,8 +59,23 @@ header nav a{
     text-align: center;
     font-size: 1.6em;
 }
+
+.grid p {
+    margin-top: 5px;
+}
+
 .grid div{
     border: 2px solid;  
+}
+
+.grid div button, .grid div input {
+    font-size: 1em;
+    text-align: center;
+}
+
+.grid div input, .box button {
+    height: 46px;
+    width: 100%;
 }
 
 .boxr {
@@ -76,11 +91,6 @@ header nav a{
 .boxb {
     grid-column-start: 3;
     grid-column-end: 5; 
-}
-
-.box button{
-    height: 46px;
-    width: 100%;
 }
 
 /*FOOTER*/
